@@ -5,6 +5,7 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const organizationName = "rajeshtilwani3";
 const projectName = "docusaurus";
+const baseUrl = `/${projectName}/`;
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'My Site',
@@ -18,7 +19,6 @@ organizationName,
   projectName,
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-const baseUrl = `/${projectName}/`;
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
