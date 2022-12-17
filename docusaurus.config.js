@@ -12,6 +12,7 @@ const config = {
   tagline: 'Dinosaurs are cool',
   url: `https://${organizationName}.github.io`,
   baseUrl: `/${projectName}/`,
+  deploymentBranch: "main",
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
